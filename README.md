@@ -1,28 +1,14 @@
 <img width="598" height="334" alt="Screenshot 2026-06-27 004604" src="https://github.com/user-attachments/assets/3297e595-caca-4083-bb6e-f7420fc0b533" />
 
-Excited to share my latest End-to-End SaaS Sales Analytics Project! 🚀
-📌 Project Overview
+# 📊 SaaS Sales Performance Insights
 
-As a Data Analyst, I wanted to dive deep into the core mechanics of SaaS metrics, so I built a complete data pipeline to analyze sales performance, tracking foundational KPIs like ARR, ACV, and Churn Rate.
+## 📝 Project Overview
+This project demonstrates a full-scale *SaaS Sales Analytics Pipeline*. The goal is to analyze customer subscription data, evaluate sales team performance, and track core SaaS financial metrics like ARR, ACV, and Churn Rate using Python, SQL Server, and Power BI.
 
-Here is a breakdown of the pipeline:
+---
 
-1️⃣ Data Generation (Python): Simulated a raw dataset of 1,200 contracts and sales team details using Pandas and NumPy, intentionally embedding missing data and structural anomalies to mimic real-world scenarios.
-
-2️⃣ Data Engineering & Cleaning (SQL Server): Developed robust SQL Views to handle NULL values, standardize categorical fields, and perform multi-table JOINs to prepare clean data for downstream analytics.
-
-3️⃣ BI & Data Visualization (Power BI): Built an interactive dashboard focused on executive decision-making:
-   
-- Formulated accurate DAX Measures to calculate true active Annual Recurring Revenue (ARR), historical Annual Contract Value (ACV), and customer Churn Rate.
--  Designed intuitive visuals to breakdown revenue by Product Tiers, evaluate regional performance, and highlight the top-performing Sales Representatives.
-
-💡 Key Insight from the project: Understanding that ARR is a current financial metric (requiring active/renewed contracts only), while ACV is a historical sales performance metric (encompassing all closed contracts) is vital for accurate SaaS business modeling.
-
-Always open to feedback! How do you typically structure your sales dashboards? 📊👇
-
-
-
-# Saas_Sales
+## 🛠️ Phase 1: Data Generation (Python)
+In this phase, a raw dataset was simulated to mimic real-world SaaS subscription scenarios, intentionally embedding missing data and anomalies for data cleansing.
 
 ```python
 import pandas as pd
