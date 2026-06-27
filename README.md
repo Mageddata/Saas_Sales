@@ -66,6 +66,9 @@ df_contracts.to_csv('saas_contracts.csv', index=False)
 print("✅ Data files were successfully generated: 'saas_contracts.csv' و 'sales_team.csv'!")
 ```
 
+💾 Phase 2: Data Engineering & Cleaning (SQL)
+​Created robust SQL Views to handle NULL values, standardize categorical fields, and perform multi-table JOINs to prepare a clean data source for Power BI.
+
 ```sql
 
 
@@ -87,3 +90,18 @@ select c.contract_id,
 from saas_contracts c
 LEFT JOIN sales_team t ON c.assigned_rep_id = t.rep_id;
 ```
+
+
+📊 Phase 3: BI & Data Visualization (Power BI)
+​Built an interactive executive dashboard focused on strategic KPIs.
+​💡 Key Metrics Formulated (DAX):
+​Total ARR: Calculates true active Annual Recurring Revenue (excluding churned contracts).
+​Total ACV: Measures the average annual value of historical closed deals.
+​Churn Rate: Tracks the percentage of lost subscription contracts.
+
+<img width="598" height="334" alt="Screenshot 2026-06-27 004604" src="https://github.com/user-attachments/assets/4578fa3a-30ec-4e6a-a9c9-958e36a6e4a2" />
+
+​📬 Business Insights & Summary
+​Product Performance: Breakdown of revenue by Product Tiers (Standard, Professional, Enterprise).
+​Regional Analytics: Evaluating high-performing sales regions (APAC, North America, LATAM, EMEA).
+​Sales Representatives: Highlighting top performers based on total contract value closed.
