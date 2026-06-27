@@ -1,3 +1,5 @@
+<img width="598" height="334" alt="Screenshot 2026-06-27 004604" src="https://github.com/user-attachments/assets/3297e595-caca-4083-bb6e-f7420fc0b533" />
+
 Excited to share my latest End-to-End SaaS Sales Analytics Project! 🚀
 📌 Project Overview
 
@@ -17,7 +19,7 @@ Here is a breakdown of the pipeline:
 💡 Key Insight from the project: Understanding that ARR is a current financial metric (requiring active/renewed contracts only), while ACV is a historical sales performance metric (encompassing all closed contracts) is vital for accurate SaaS business modeling.
 
 Always open to feedback! How do you typically structure your sales dashboards? 📊👇
-<img width="598" height="334" alt="Screenshot 2026-06-27 004604" src="https://github.com/user-attachments/assets/3297e595-caca-4083-bb6e-f7420fc0b533" />
+
 
 
 # Saas_Sales
